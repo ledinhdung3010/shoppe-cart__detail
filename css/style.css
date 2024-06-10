@@ -48,8 +48,9 @@
 .container-inf-cart__detail .inf-cart__detail .content-cart__detail{
     background-color: #fff;
     margin-top: 10px;
+    padding-bottom: 500px;
     padding: 20px;
-    height: 100vh;
+    margin-bottom: 50px;
 }
 .content-cart__detail .list-product .item-product{
     padding: 15px 0;
@@ -101,7 +102,7 @@
     font-size: 20px;
 }
 .list-product .item-product .operation{
-    padding: 5px 10px;
+    padding: 0 10px;
 }
 .list-product .item-product .operation .btn-operation{
     font-size: 16px;
@@ -134,7 +135,7 @@
     color: #fff;
 }
 .right-container-btn__buy .text-container-btn__buy{
-    padding: 10px   ;
+    padding: 5px 10px;
   
 }
 
