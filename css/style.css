@@ -39,7 +39,7 @@
     overflow: hidden; 
 }
 .content-cart__detail .list-product{
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 }
 .content-cart__detail .list-product .item-product .container-left{
     height: 100%;
@@ -123,6 +123,12 @@
     right: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.right-container-btn__buy .total__payment .text-sum_price{
+    font-size: 30px;
+}
+.right-container-btn__buy .total__payment .text-total__payment{
+    font-size: 30px;
+}
 .container-btn__buy .right-container-btn__buy{
     right: 0;
     padding: 10px;
@@ -148,11 +154,13 @@
 }
 .right-container-btn__buy .container-total__payment{
     padding: 0;
+    white-space: nowrap;
 }
-.right-container-btn__buy .container-total__payment{
-    padding: 0;
-}
+
 @media (max-width: 768px) {
+    .header-cart{
+        height: 50px;
+    }
     .cart_detail .header-cart .search-product{
         display: none !important;
     }
@@ -168,9 +176,16 @@
     
     .item-product .text-product .text-name__product{
         font-size: 15px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        max-width: 200px;
     }
     .item-product .text-product .product-type .form-select{
         font-size: 15px;
+        height: 25px;
     }
     .item-product .container-bottom .text-price{
         font-size: 15px;
@@ -209,6 +224,10 @@
     .container-full .container-left{
      
     }
+    .list-product .item-product .container-bottom{
+        margin-top: 5%;
+        padding: 5px 0;
+     }
     .container-full .container-left .text-all{
         font-size: 20px;
         margin-left: 10px;
@@ -219,15 +238,15 @@
     }
     .item-product .text-product .product-type{
         width: 80%;
-        margin-top: 15px;
+        margin-top: 5px;
     }
     .right-container-btn__buy .total__payment .text-sum_price{
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 20px;
         padding: 0;
     }
     .right-container-btn__buy .total__payment .text-total__payment{
-        font-size: 18px;
+        font-size: 20px;
         padding: 9px 0;
     }
     .right-container-btn__buy .total__payment .btn-buy{
