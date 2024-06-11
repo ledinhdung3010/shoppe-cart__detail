@@ -47,7 +47,7 @@
     display: flex;
 }
 .content-cart__detail .list-product .item-product{
-    padding: 5px 0;
+    padding: 2px 0;
     border-bottom: 1px solid #ccc;
 }
 .content-cart__detail .list-product .item-product .img-product{
