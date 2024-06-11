@@ -197,5 +197,8 @@
     .content-cart__detail .list-product {
         margin-bottom: 100px;
     }
-
+    .item-product .text-product .product-type{
+        width: 60%;
+        margin-top: 15px;
+    }
 }
