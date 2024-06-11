@@ -122,13 +122,14 @@
     right: 0;
     padding: 10px;
 }
+
 .right-container-btn__buy .total__payment .text-sum_price{
     color: #ee4d2d;
     padding: 0 5px;
 }
 .right-container-btn__buy .total__payment .btn-buy{
     padding: 10px 30px;
-    width: 150px;
+    width: 190px;
     background-color: #ee4d2d;
     color: #fff;
 }
@@ -141,6 +142,9 @@
     opacity: 0.7;
 }
 @media (max-width: 768px) {
+    .cart_detail .header-cart .search-product{
+        display: none !important;
+    }
     .container-btn__buy{
         width: 100%;
     }
@@ -162,21 +166,23 @@
     }
     .list-product .item-product .quantity-product .btn-input__quantity{
         margin-left: 10px;
+        margin-top: 1px;
     }
     .list-product .item-product .quantity-product .btn-quantity{
         font-size: 13px;
         border: 1px solid  #e9e0e2;
         display: block;
         padding: 0 5px;
-        height: 30px;
+        height: 20px;
         background-color: #fff;
+       
         
     }
     .list-product .item-product .quantity-product .show-quantity input{
         text-align: center;
         padding: 7px 0;
         width: 20px;
-        height: 30px;
+        height: 20px;
         border-radius: 0;
         border: 1px solid  #e9e0e2;
     }
@@ -184,9 +190,10 @@
         font-size: 12px;
     }
     .right-container-btn__buy .total__payment .btn-buy{
-        font-size: 12px;
+        font-size: 10px;
         padding: 2px;
-        height: 30px;
+        height: 40px;
+        margin-top: 10px;
     }
     .container-full .container-left{
      
@@ -200,5 +207,11 @@
     .item-product .text-product .product-type{
         width: 60%;
         margin-top: 15px;
+    }
+    .right-container-btn__buy .total__payment .text-sum_price{
+        margin-top: 10px;
+    }
+    .right-container-btn__buy .total__payment .text-total__payment{
+        font-size: 16px;
     }
 }
