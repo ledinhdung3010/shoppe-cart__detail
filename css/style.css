@@ -76,6 +76,7 @@
 }
 .list-product .item-product .quantity-product .btn-input__quantity{
     margin-left: 10px;
+
 }
 .list-product .item-product .quantity-product .btn-quantity{
     font-size: 20px;
@@ -193,13 +194,13 @@
     }
     .list-product .item-product .quantity-product .btn-input__quantity{
         margin-left: 10px;
-        margin-top: 1px;
+        margin-top: 2px;
     }
     .list-product .item-product .quantity-product .btn-quantity{
         font-size: 13px;
         border: 1px solid  #e9e0e2;
         display: block;
-        padding: 0 10px;
+        padding: 3px 15px;
         height: 30px;
         background-color: #fff;
        
@@ -208,7 +209,7 @@
     .list-product .item-product .quantity-product .show-quantity input{
         text-align: center;
         padding: 7px 0;
-        width: 20px;
+        width: 40px;
         height: 30px;
         border-radius: 0;
         border: 1px solid  #e9e0e2;
@@ -238,7 +239,7 @@
         margin-bottom: 150px;
     }
     .item-product .text-product .product-type{
-        width: 80%;
+        width: 75%;
         margin-top: 5px;
     }
     .right-container-btn__buy .total__payment .text-sum_price{
