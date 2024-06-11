@@ -183,7 +183,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
-        max-width: 200px;
     }
     .item-product .text-product .product-type .form-select{
         font-size: 15px;
