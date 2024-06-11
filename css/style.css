@@ -47,7 +47,7 @@
     display: flex;
 }
 .content-cart__detail .list-product .item-product{
-    padding: 2px 0;
+    padding: 5px 0;
     border-bottom: 1px solid #ccc;
 }
 .content-cart__detail .list-product .item-product .img-product{
@@ -133,7 +133,7 @@
 }
 .right-container-btn__buy .total__payment .btn-buy{
     padding: 10px 30px;
-    width: 190px;
+    width: 300px;
     background-color: #ee4d2d;
     color: #fff;
 }
@@ -144,6 +144,12 @@
 
 .right-container-btn__buy .total__payment .btn-buy:hover{
     opacity: 0.7;
+}
+.right-container-btn__buy .container-total__payment{
+    padding: 0;
+}
+.right-container-btn__buy .container-total__payment{
+    padding: 0;
 }
 @media (max-width: 768px) {
     .cart_detail .header-cart .search-product{
@@ -208,17 +214,22 @@
         margin-top: 5px;
     }
     .content-cart__detail .list-product {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
     .item-product .text-product .product-type{
-        width: 70%;
+        width: 80%;
         margin-top: 15px;
     }
     .right-container-btn__buy .total__payment .text-sum_price{
         margin-top: 10px;
+        font-size: 18px;
+        padding: 0;
     }
     .right-container-btn__buy .total__payment .text-total__payment{
-        font-size: 14px;
+        font-size: 18px;
         padding: 8px 0;
+    }
+    .right-container-btn__buy .total__payment .btn-buy{
+        width: 190px; 
     }
 }
