@@ -104,6 +104,10 @@
 .container-full{
     width: 100%;
 }
+.container-full .container-left .text-all{
+    margin-left: 10px;
+    margin-top: 5px;
+}
 .container-full .container-left{
     padding: 20px 0;
 }
@@ -156,10 +160,10 @@
     }
     
     .item-product .text-product .text-name__product{
-        font-size: 8px;
+        font-size: 15px;
     }
     .item-product .text-product .product-type .form-select{
-        font-size: 8px;
+        font-size: 15px;
     }
     .item-product .container-bottom .text-price{
         font-size: 15px;
@@ -172,8 +176,8 @@
         font-size: 13px;
         border: 1px solid  #e9e0e2;
         display: block;
-        padding: 0 5px;
-        height: 20px;
+        padding: 0 10px;
+        height: 30px;
         background-color: #fff;
        
         
@@ -182,7 +186,7 @@
         text-align: center;
         padding: 7px 0;
         width: 20px;
-        height: 20px;
+        height: 30px;
         border-radius: 0;
         border: 1px solid  #e9e0e2;
     }
@@ -200,18 +204,21 @@
     }
     .container-full .container-left .text-all{
         font-size: 12px;
+        margin-left: 10px;
+        margin-top: 5px;
     }
     .content-cart__detail .list-product {
         margin-bottom: 100px;
     }
     .item-product .text-product .product-type{
-        width: 60%;
+        width: 70%;
         margin-top: 15px;
     }
     .right-container-btn__buy .total__payment .text-sum_price{
         margin-top: 10px;
     }
     .right-container-btn__buy .total__payment .text-total__payment{
-        font-size: 16px;
+        font-size: 14px;
+        padding: 8px 0;
     }
 }
