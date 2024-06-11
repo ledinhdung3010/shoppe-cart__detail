@@ -143,6 +143,7 @@
     width: 300px;
     background-color: #ee4d2d;
     color: #fff;
+   
 }
 .right-container-btn__buy .text-container-btn__buy{
     padding: 5px 10px;
@@ -216,7 +217,7 @@
         font-size: 12px;
     }
     .right-container-btn__buy .total__payment .btn-buy{
-        font-size: 10px;
+        font-size: 18px;
         padding: 2px;
         height: 40px;
         margin-top: 10px;
